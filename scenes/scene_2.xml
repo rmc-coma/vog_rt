@@ -1,0 +1,133 @@
+<scene>
+	<camera>
+		<position x="-0.3" y="5" z="-10."></position>
+	</camera>
+
+
+	<objects>
+		<plane-1 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color r="0.5" g="0.5" b="0.5"></color>
+				</material>
+			</mesh>
+			<transform>
+			</transform>
+		</plane-1>
+
+		<plane-2 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color r="0.3" g="0.3" b="0.3"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="8."></position>
+				<rotation x="1.57"></rotation>
+			</transform>
+		</plane-2>
+
+		<torus-1 type="mesh">
+			<mesh>
+				<geometry type="torus" major-radius="0.9" minor-radius="0.3">
+				</geometry>
+				<material specular_radius="250." reflection="0.">
+					<color r="0.9"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="3." y="1." z="0."></position>
+			</transform>
+		</torus-1>
+
+		<box-1 type="mesh">
+			<mesh>
+				<geometry type="box">
+					<size x="8." y="6." z="20."></size>
+				</geometry>
+				<material specular="0." reflection="0.">
+					<color b="0.9" r="0.2"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-10" y="4." z="-8."></position>
+				<rotation y="0.5"></rotation>
+			</transform>
+		</box-1>
+		<mobius-1 type="mesh">
+			<mesh>
+				<geometry type="mobius">
+				</geometry>
+				<material specular="250" reflection="0.">
+					<color r="0.8" g="0.8"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="7." y="1." z="0."></position>
+				<rotation x="1.57" z="-1.57"></rotation>
+			</transform>
+		</mobius-1>
+		<hyperboloid-1-sheet type="mesh">
+			<mesh>
+				<geometry type="hyperboloid" d="0.05">
+					<size y="2."></size>
+				</geometry>
+				<material specular="250" reflection="0.">
+					<color r="1." g="0.4" b="0.1"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="12." y="2." z="0."></position>
+			</transform>
+		</hyperboloid-1-sheet>
+		<hyperboloid-2-sheets type="mesh">
+			<mesh>
+				<geometry type="hyperboloid" d="-0.05">
+					<size y="2."></size>
+				</geometry>
+				<material specular="250" reflection="0.">
+					<color r="1." g="0.6" b="0.1"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="12." y="5." z="0."></position>
+			</transform>
+		</hyperboloid-2-sheets>
+		<cubic-1 type="mesh">
+			<mesh>
+				<geometry type="cubic" a3="-1" ab2="3" c3="1" c="-1"
+					radius="1.3">
+				</geometry>
+				<material specular="250" reflection="0.">
+					<color r="0.1" g="1." b="0.3"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="15." y="3." z="0."></position>
+			</transform>
+		</cubic-1>
+	</objects>
+
+	<lights>
+		<spot_1 intensity="200." angle="0.7" ambiant="0.">
+			<color r="0.01" g="0.01" b="1."></color>
+			<direction x="0." y="-0.5" z="1."></direction>
+			<position x="0." y="8." z="-15."></position>
+		</spot_1>
+		<point_2 intensity="10.">
+			<color r="1." g="0.1" b="0.1" ambiant="0."></color>
+			<direction x="0." y="-0.5" z="1."></direction>
+			<position x="-9." y="3" z="-7."></position>
+		</point_2>
+		<spot-2 intensity="200." angle="0.8" ambiant="0.">
+			<color r="1." g="1." b="0.1"></color>
+			<direction x="0." y="-1" z="-0.2"></direction>
+			<position x="0." y="20." z="6."></position>
+		</spot-2>
+		<parallel-1 intensity="0.8" parallel="true">
+			<direction x="0.1" y="-1" z="0.2"></direction>
+		</parallel-1>
+	</lights>
+</scene>

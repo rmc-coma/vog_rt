@@ -1,0 +1,202 @@
+<scene>
+	<camera>
+		<position x="0.0" y="0.0" z="-15.0"></position>
+	</camera>
+
+	<objects>
+		<plane-1 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color r="0.5" g="0.5" b="0.5"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position y="-5.0"></position>
+			</transform>
+		</plane-1>
+		<plane-2 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color r="0.27" g="0.26" b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="10."></position>
+				<rotation x="1.57"></rotation>
+			</transform>
+		</plane-2>
+		<plane-3 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0."></material>
+			</mesh>
+			<transform>
+				<position y="5.0" z="10."></position>
+			</transform>
+		</plane-3>
+
+		<sphere-1 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250.0" reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-5.0" y="5.0" z="-5.0"></position>
+			</transform>
+		</sphere-1>
+		<cylinder-1 type="mesh">
+			<mesh>
+				<geometry type="cylinder" height="10.0" radius="1."></geometry>
+				<material reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-5.0" y="0.0" z="-5.0"></position>
+				<rotation x="0.0" y="1.57" z="0.0"></rotation>
+			</transform>
+		</cylinder-1>
+		<sphere-2 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250." reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-5.0" y="-5.0" z="-5.0"></position>
+			</transform>
+		</sphere-2>
+
+		<sphere-3 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250.0" reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="5.0" y="5.0" z="-5.0"></position>
+			</transform>
+		</sphere-3>
+		<cylinder-2 type="mesh">
+			<mesh>
+				<geometry type="cylinder" height="10.0" radius="1."></geometry>
+				<material reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="5.0" y="0.0" z="-5.0"></position>
+				<rotation x="0.0" y="1.57" z="0.0"></rotation>
+			</transform>
+		</cylinder-2>
+		<sphere-4 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250." reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="5.0" y="-5.0" z="-5.0"></position>
+			</transform>
+		</sphere-4>
+
+
+		<sphere-5 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250.0" reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-5.0" y="5.0" z="5.0"></position>
+			</transform>
+		</sphere-5>
+		<cylinder-3 type="mesh">
+			<mesh>
+				<geometry type="cylinder" height="10.0" radius="1."></geometry>
+				<material reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-5.0" y="0.0" z="5.0"></position>
+				<rotation x="0.0" y="1.57" z="0.0"></rotation>
+			</transform>
+		</cylinder-3>
+		<sphere-6 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250." reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-5.0" y="-5.0" z="5.0"></position>
+			</transform>
+		</sphere-6>
+
+		<sphere-7 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250.0" reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="5.0" y="5.0" z="5.0"></position>
+			</transform>
+		</sphere-7>
+		<cylinder-4 type="mesh">
+			<mesh>
+				<geometry type="cylinder" height="10.0" radius="1."></geometry>
+				<material reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="5.0" y="0.0" z="5.0"></position>
+				<rotation x="0.0" y="1.57" z="0.0"></rotation>
+			</transform>
+		</cylinder-4>
+		<sphere-8 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.5"></geometry>
+				<material specular_radius="250." reflection="0.3">
+					<color r="1." g="1." b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="5.0" y="-5.0" z="5.0"></position>
+			</transform>
+		</sphere-8>
+
+		<sphere-9 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="1.0"></geometry>
+				<material specular_radius="250." reflection="0.3">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="0.0" y="-3.0" z="-5.0"></position>
+			</transform>
+		</sphere-9>
+	</objects>
+
+	<lights>
+		<point_1 intensity="50.">
+			<position x="9." y="0." z="-15."></position>
+		</point_1>
+		<point_2 intensity="50.">
+			<position x="-9." y="0." z="-15."></position>
+		</point_2>
+	</lights>
+</scene>

@@ -1,0 +1,117 @@
+<scene>
+	<camera>
+		<position x="20" y="20" z="20"></position>
+	</camera>
+
+	<objects>
+		<ell_1 type="mesh">
+			<mesh>
+				<geometry type="ellipsoid" radius_y="2." radius_z="3."></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position y="10" z="10."></position>
+			</transform>
+		</ell_1>
+
+		<ell_2 type="mesh">
+			<mesh>
+				<geometry type="ellipsoid" radius_z="3."></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position y="10" z="15."></position>
+			</transform>
+		</ell_2>
+
+		<ell_3 type="mesh">
+			<mesh>
+				<geometry type="ellipsoid"></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position y="10" z="20."></position>
+			</transform>
+		</ell_3>
+
+		<plane-1 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color r="0.5" g="0.5" b="0.5"></color>
+				</material>
+			</mesh>
+			<transform>
+			</transform>
+		</plane-1>
+
+
+		<par-1 type="mesh">
+			<mesh>
+				<geometry type="paraboloid">
+					<size y="2."></size>
+				</geometry>
+				<material ambiant="0.1">
+					<color b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="10" y="15." z="5."></position>
+			</transform>
+		</par-1>
+
+		<par-2 type="mesh">
+			<mesh>
+				<geometry type="paraboloid" radius_x="3.">
+					<size y="2."></size>
+				</geometry>
+				<material ambiant="0.1">
+					<color b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="10" y="20." z="5."></position>
+			</transform>
+		</par-2>
+
+		<par-3 type="mesh">
+			<mesh>
+				<geometry type="paraboloid" radius_z="-3.">
+					<size y="2."></size>
+				</geometry>
+				<material ambiant="0.1">
+					<color b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="10" y="25." z="5."></position>
+			</transform>
+		</par-3>
+
+		<par-4 type="mesh">
+			<mesh>
+				<geometry type="paraboloid" radius_x="10." radius_z="-10">
+					<size y="2."></size>
+				</geometry>
+				<material ambiant="0.1">
+					<color b="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="10" y="30." z="5."></position>
+			</transform>
+		</par-4>
+	</objects>
+
+	<lights>
+		<point_1 intensity="200.">
+			<position y="20." z="20."></position>
+		</point_1>
+	</lights>
+</scene>

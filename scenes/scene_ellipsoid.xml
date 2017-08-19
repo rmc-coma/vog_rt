@@ -1,0 +1,44 @@
+<scene>
+	<camera>
+	</camera>
+	<objects>
+		<ell_1 type="mesh">
+			<mesh>
+				<geometry type="ellipsoid" radius_y="2." radius_z="3."></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="10."></position>
+			</transform>
+		</ell_1>
+		<ell_2 type="mesh">
+			<mesh>
+				<geometry type="ellipsoid" radius_z="3."></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="15."></position>
+			</transform>
+		</ell_2>
+		<ell_3 type="mesh">
+			<mesh>
+				<geometry type="ellipsoid"></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="20."></position>
+			</transform>
+		</ell_3>
+	</objects>
+	<lights>
+		<point_1 intensity="200.">
+			<position y="10." z="10."></position>
+		</point_1>
+	</lights>
+</scene>

@@ -1,0 +1,37 @@
+<scene>
+	<camera>
+		<position z="-2" y="4"></position>
+	</camera>
+	<objects>
+		<sphere_1 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="3"></geometry>
+				<material ambiant="0.1">
+					<color r="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="3"></position>
+			</transform>
+		</sphere_1>
+		<box_1 type="mesh">
+			<mesh>
+				<geometry type="box">
+				<size x="30" y="30" z="30"></size>
+				</geometry>
+				<material ambiant="0.1" specular="0" reflection="0.5">
+					<color r="1.0" g="1.0" b="1.0"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="4."></position>
+			</transform>
+		</box_1>
+	</objects>
+	<lights>
+		<point_1 intensity="100." angle="0.5">
+			<direction y="-1" x="0." z="0."></direction>
+			<position y="12." z="3."></position>
+		</point_1>
+	</lights>
+</scene>

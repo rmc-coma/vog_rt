@@ -1,0 +1,83 @@
+<scene>
+	<camera>
+		<position x="-0.3" y="1.5" z="-4."></position>
+	</camera>
+
+
+	<objects>
+		<plane-1 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color r="0.5" g="0.5" b="0.5"></color>
+				</material>
+			</mesh>
+			<transform>
+			</transform>
+		</plane-1>
+
+		<plane-2 type="mesh">
+			<mesh>
+				<geometry type="plane"></geometry>
+				<material specular="0.">
+					<color g="0.5"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position z="5."></position>
+				<rotation x="1.57"></rotation>
+			</transform>
+		</plane-2>
+
+		<sphere-1 type="mesh">
+			<mesh>
+				<geometry type="sphere" radius="0.9"></geometry>
+				<material specular_radius="250." reflection="0.3">
+					<color r="0.9"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-0.9" y="0.6" z="0."></position>
+			</transform>
+		</sphere-1>
+
+		<cylinder-1 type="mesh">
+			<mesh>
+				<geometry type="cylinder" radius="1.">
+					<size y="10."></size>
+				</geometry>
+				<material reflection="0.3">
+					<color g="0.7" r="0.7"></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="-2." y="1." z="0."></position>
+				<rotation x="0." y="0." z="-0.785"></rotation>
+			</transform>
+		</cylinder-1>
+
+		<cone-1 type="mesh">
+			<mesh>
+				<geometry type="cone">
+					<size y="10."></size>
+				</geometry>
+				<material reflection="0.3">
+					<color g="1."></color>
+				</material>
+			</mesh>
+			<transform>
+				<position x="0.2" y="0.8" z="0."></position>
+				<rotation x="0." y="0." z="0.628"></rotation>
+				<scale x="1." y="1.5" z="1."></scale>
+			</transform>
+		</cone-1>
+	</objects>
+
+
+	<lights>
+		<point_1 type="spot" intensity="70." angle="0.5">
+			<direction x="0." y="-0.5" z="1."></direction>
+			<position x="0." y="8." z="-10."></position>
+		</point_1>
+	</lights>
+</scene>
